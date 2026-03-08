@@ -7,8 +7,8 @@
 import SwiftUI
 
 struct PopCat: View {
-    @State private var isOpen: Bool = false
-    @State private var count: Int = 0
+    @State var isOpen: Bool = false
+    @State var count: Int = 0
     @State var backgroundColor: Color = .clear
 
     var body: some View {
